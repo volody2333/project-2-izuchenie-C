@@ -1,26 +1,69 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// ÒÅÌÀ 8: ÔÓÍÊÖÈÈ printf() ÄËß ÔÎĞÌÀÒÈÂÍÎÃÎ ÂÛÂÎÄÀ
+//int main(void)
+//{
+//	// char, short - ïğèâîäèòñÿ ê òèïó int
+//	// float - ïğèâîäèòñÿ ê òèïó double
+//	
+//	//int var_i =1208;
+//	//double var_i =1208;
+//	//char var_i =1208;
+//	//float var_i = 12.56;
+//	//long long var_i = -12345678901234;
+//	//long double var_ld = 6345663.5252325;
+//	
+//	//printf("value = %Lf\n", var_ld);
+//	//printf("value = %lld\n", var_i);
+//	//printf("value = %d\n", var_i);
+//	//printf("value = %x\n", var_i);
+//	//printf("value = %f\n", var_i);
+//	
+//	short var_h = 100;
+//	int var_i = 1024;
+//	long double var_ld = 0.5;
+//	
+//	printf("var_h = %d, var_i = %d, %Lf\n", var_h, var_i, var_ld);
+//
+//int var_i = -1283;
+//double var_d = 54.34675;
+//
+//printf("[%10d]\n", var_i);
+//printf("[%10f]\n", var_d);
+//printf("[%-10d]\n", var_i);
+//printf("[%-10f]\n", var_d);
+//printf("[%#X]\n", var_i);
+//printf("[%+.2f]\n", var_d);
+//
+//	return 0;
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ÒÅÌÀ 7: ÑÒÀÍÄÀĞÒÍÛÅ ÏÎÒÎÊÈ ÂÂÎÄÀ\ÂÛÂÎÄÀ.
-int main(void)
-{
-	int value1 = getchar();
-	 //int res = putchar(value);
- 	 //printf("\n%d\n", res);
-    int value2 = getchar();
-	
-	printf("%c %c\n", value1, value2);	
-	return 0;
-}
-
-
-
-
-
-
-
-
-
+//int main(void)
+//{
+//	int value1 = getchar();
+//	 //int res = putchar(value);
+// 	 //printf("\n%d\n", res);
+//    int value2 = getchar();
+//	
+//	printf("%c %c\n", value1, value2);	
+//	return 0;
+//}
 
 
 
