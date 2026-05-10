@@ -1,6 +1,52 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// ÒÅÌÀ 9: ÔÓÍÊÖÈß scanf() äëÿ ôîğìàòèâíîãî ââîäà.
+int main(void)
+{
+	long long var_lli = 0;
+	double var_d = 0;
+//	char byte1 = '0', byte2 = '0';
+	
+    int res = scanf("%lld %lf", &var_lli, &var_d);
+	
+	printf("res = %d: var_lli = %lld, var_d = %.2f\n", res, var_lli, var_d);
+	
+	
+//	int res = scanf("%c %c", &byte1, &byte2);
+//	
+//	printf("res = %d: byte1 = %c, byte2 = %c\n", res, byte1, byte2);
+	
+//	int res1 = scanf("%c", &byte1);
+//	int res2 = scanf("%c", &byte2);
+//	printf("byte1 = %c, byte2 = %c\n", byte1, byte2);
+	
+	
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ÒÅÌÀ 8: ÔÓÍÊÖÈÈ printf() ÄËß ÔÎĞÌÀÒÈÂÍÎÃÎ ÂÛÂÎÄÀ
 //int main(void)
 //{
@@ -38,12 +84,6 @@
 //
 //	return 0;
 //}
-
-
-
-
-
-
 
 
 
